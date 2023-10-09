@@ -4,9 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="resources/global.css">
+	<link rel="stylesheet" href="resources/advSearch.css">
 	<title>Advanced Search</title>
 </head>
 <body>
+	<div class="upperRight">
+		<a href="imageSearch.html">Images</a>
+		<a href="index.html">Google</a>
+	</div>
+	<img src="resources/images/google.png" alt="Google">
+	<h1>Advanced Search</h1>
+	<hr>
 	<div class="both">
 		<div class="left">
 			<h2>Find pages with...</h2>
@@ -16,7 +24,13 @@
 			<p>none of these words:</p>
 		</div>
 		<div class="right">
-			
+			<form action="https://www.google.com/search">
+				<input type="text" name="as_q">
+				<input type="text" name="as_epq">
+				<input type="text" name="as_oq">
+				<input type="text" name="as_eq">
+				<input type="submit" value="Advanced Search">
+			</form>
 		</div>
 	</div>
 </body>
